@@ -1,0 +1,26 @@
+# Sales Data Analysis
+
+## Overview
+This project analyzes sales data at a demographic level, including age, gender, country, and state. The analysis includes data cleaning, summary statistics, and visualizations.
+
+## Project Structure
+- `data/`: Contains the raw and cleaned data.
+- `notebooks/`: Contains the Jupyter notebook for data analysis.
+- `scripts/`: Contains the Python script for data cleaning.
+
+## Data Cleaning
+The data cleaning script removes invalid rows, fills missing values, and creates new columns for analysis.
+
+## Analysis
+The Jupyter notebook performs demographic analysis and visualizes the results.
+
+## How to Run
+1. Clone the repository.
+2. Run the data cleaning script: `python scripts/data_cleaning.py`.
+3. Open the Jupyter notebook: `jupyter notebook notebooks/data_analysis.ipynb`.
+
+## License
+This project is licensed under the MIT License.
+
+
+

@@ -1,26 +1,55 @@
-# Sales Data Analysis
+# 📊 Sales Data Analysis
 
-## Overview
-This project analyzes sales data at a demographic level, including age, gender, country, and state. The analysis includes data cleaning, summary statistics, and visualizations.
+This project presents a detailed analysis of historical sales data using Python and Jupyter Notebook. It explores key business insights such as monthly revenue trends, product performance, customer demographics, and regional sales distribution.
 
-## Project Structure
-- `data/`: Contains the raw and cleaned data.
-- `notebooks/`: Contains the Jupyter notebook for data analysis.
-- `scripts/`: Contains the Python script for data cleaning.
+## 📁 Dataset Overview
 
-## Data Cleaning
-The data cleaning script removes invalid rows, fills missing values, and creates new columns for analysis.
+The dataset includes:
+- Sales and profit information
+- Customer demographics (age, gender, country)
+- Product categories and subcategories
+- Time-based order data (date, month, year)
 
-## Analysis
-The Jupyter notebook performs demographic analysis and visualizes the results.
+## 🔍 Key Features
 
-## How to Run
-1. Clone the repository.
-2. Run the data cleaning script: `python scripts/data_cleaning.py`.
-3. Open the Jupyter notebook: `jupyter notebook notebooks/data_analysis.ipynb`.
+- Data cleaning and preparation
+- Revenue trends by month and year
+- Sales analysis by country, state, and city
+- Product category and top product breakdowns
+- Customer segmentation (by gender and age group)
+- Profit vs. revenue scatter plots
+- Easy-to-understand charts and graphs
 
-## License
-This project is licensed under the MIT License.
+## 📓 Notebook Preview
 
+You can view the full notebook [here](sales_analysis.ipynb).
 
+## 📷 Sample Visualizations
+
+*Add screenshots of your charts here to make your repo visually engaging.*
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shoeb2524/sales_data_analysis.git
+   ```
+2. Open `sales_analysis.ipynb` in Jupyter Notebook or VSCode.
+3. Run all cells to see the full analysis.
+
+## 🧠 Insights
+
+- Revenue shows seasonal trends across months and years.
+- Certain product categories dominate in revenue but differ in profitability.
+- Specific age groups and genders drive significant sales segments.
+- Geography heavily influences sales performance.
+
+## 📌 Tools Used
+
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
+
+---
+
+> ✨ Impress recruiters by showing your ability to analyze real-world datasets, extract insights, and communicate visually!
 
